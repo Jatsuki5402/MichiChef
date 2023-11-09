@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+
+    <link rel="stylesheet" href="estiloT.css">
+    <title>Tarta de queso con arándanos</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>MR</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">INGREDIENTES</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">INSTRUCCIONES</a></li>
+                            <li><a href="index.html" onclick="seleccionar(this)">RECETARIO</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Receta</p>
+                <h2>Tarta de <span> queso con arándanos  </span>  y base de galleta</h2>
+                <p class="descripcion">Cómo hacer tarta de queso con arándanos y base de galleta </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Ingredientes</p>
+            <br>
+            <p>30 galletas digestive, <br>
+                100 gramos de mantequilla <br>
+                150 gramos de mermelada de arándanos<br>
+                200 gramos de arándanos<br>
+                40 gramos de azúcar <br>
+                250 gramos de queso blanco para untar <br>
+                3 huevos <br>
+                150 gramos de queso mascarpone <br>
+                ½ cucharadas de esencia de vainilla o extracto <br>
+                40 gramos de harina <br>
+                Hojas de menta fresca</p>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Instrucciones</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">1</span>
+                <h4>Prepara la base de galleta</h4>
+                <hr>
+                <p>Precalienta el horno a 180o. Tritura las galletas y mézclalas con la mantequilla fundida.
+                     Dispón la preparación en el fondo de un molde circular, presionándola.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono">2</span>
+                <h4> Prepara el relleno de queso</h4>
+                <hr>
+                <p>Bate el azúcar con los quesos y los huevos, 
+                mejor con varillas eléctricas. Incorpora la harina tamizada y la vainilla, y mezcla hasta que se integren.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono">3</span>
+                <h4>Hornea al baño maría</h4>
+                <hr>
+                <p>Vierte esta preparación en el molde y cuece al baño María durante 40 o 45 minutos a 180º. 
+                Para ello, llena con dos dedos de agua caliente una placa honda de horno y pon el molde dentro. 
+                En ningún momento debe entrar agua en el interior del molde. 
+                Apaga el horno y reserva la tarta dentro, con la puerta abierta, 1 hora hasta que se enfríe</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">4</span>
+                <h4> Desmolda y decoras</h4>
+                <hr>
+                <p>Desmolda la tarta en una fuente, cubre la superficie con la mermelada y dispón encima los arándanos lavados y secos.
+                    Añade unas hojitas de menta fresca lavada y seca. 
+                    Resérvala en la nevera hasta el momento de servirla.</p>
+            </div>
+            <div class="servicio">
+                <h4>Consejo</h4>
+                <hr>
+                <p>Puedes sustituir la mermelada y la fruta fresca por el tipo que prefieras.
+                    Las de frutos rojos son las más típicas pero puedes atreverte con sabores más inesperados como la lima,
+                     el mango, el melocotón o los higos dependiendo de la temporada.</p>
+            </div>
+
+            <div class="servicio">
+                <h4>Truco</h4>
+                <hr>
+                <p>Para desmoldar mejor la tarta, forra el molde con papel sulfurizado.</p>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

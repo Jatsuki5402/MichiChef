@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+
+    <link rel="stylesheet" href="estiloB.css">
+    <title>Brazo de gitano</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>MR</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">INGREDIENTES</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">INSTRUCCIONES</a></li>
+                            <li><a href="index.html" onclick="seleccionar(this)">RECETARIO</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Receta</p>
+                <h2> Brazo de<span> gitano relleno </span> de dulce de leche</h2>
+                <p class="descripcion">Para preparar nuestro delicioso brazo de gitano, hay que manejar con cuidado la masa de bizcocho para que no se nos rompa al enrollar con el relleno de dulce de leche</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Ingredientes</p>
+            <br>
+            <p>2 huevos<br>
+                110 gramos de harina<br>
+                100 gramos de azúcar<br>
+                100 gramos de dulce de leche<br>
+                Azúcar glas<br>
+                Mantequilla</p>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Instrucciones</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">1</span>
+                <h4>Bate huevos y azúcar</h4>
+                <hr>
+                <p>Bate los huevos, con varillas manuales, en un cuenco con el azúcar hasta que dupliquen su volumen.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono">2</span>
+                <h4>Tamiza la harina</h4>
+                <hr>
+                <p>Añade poco a poco la harina, con ayuda de un tamiz, sin dejar de batir hasta que se incorpore totalmente.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono">3</span>
+                <h4>Pincela el molde</h4>
+                <hr>
+                <p>Forra la placa del horno con una hoja de papel sulfurizado y pincélalo con un poco de mantequilla. 
+                    Reparte la masa preparada sobre el papel y extiéndela de manera que tenga el mismo grosor por todos lados. </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">4</span>
+                <h4> Hornea la masa</h4>
+                <hr>
+                <p> 
+                    Cuécela en el horno, precalentado a 170º, durante 12 o 14 minutos, hasta que empiece a dorarse la superficie. 
+                    Retira y deja reposar unos minutos, hasta que el bizcocho esté templado.</p>
+            </div>
+
+
+                <div class="servicio">
+                    <span class="icono">5</span>
+                    <h4>Unta con dulce de leche</h4>
+                    <hr>
+                    <p> Despégalo del papel con cuidado de no romperlo, 
+                        ponlo sobre una mesa de trabajo y unta un lado del bizcocho con la mayor parte del dulce de leche. 
+                        Enróllalo y espolvoréalo con azúcar glas. </p>
+                </div>
+
+
+                    <div class="servicio">
+                        <span class="icono">6</span>
+                        <h4>Decora y sirve</h4>
+                        <hr>
+                        <p> Decóralo con el resto del dulce de leche en forma de hilos y sírvelo cortado en porciones. </p>
+                    </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
